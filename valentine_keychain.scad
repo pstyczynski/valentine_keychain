@@ -1,9 +1,9 @@
-text_var = "I LOVE YOU";
+text_var = "I LOVE YOU M";
 add_loop = true;
 
 base_size = 2;
 
-font = "Arial:style=Bold";
+font = "Futura:style=Bold"; //alternatywnie można uzyć Helvetica
 font_size = 10;
 avg_char_width = font_size * 0.99;
 
@@ -54,7 +54,7 @@ union() {
                     text(text_var, size = font_size, font = font, halign = "center", valign = "baseline");
 
         rotate([0, 0, 90])
-            linear_extrude(height = font_size + base_size)
+            linear_extrude(height = (font_size + base_size) * 2)
                 heart(heart_size);
     }
 
