@@ -1,9 +1,9 @@
-text_var = "I LOVE YOU M";
+text_var = "I LOVE YOU";
 add_loop = true;
 
 base_size = 2;
 
-font = "Futura:style=Bold"; //alternatywnie można uzyć Helvetica
+font = "Futura:style=Bold"; //you can use Helvetica or Futura
 font_size = 10;
 avg_char_width = font_size * 0.99;
 
